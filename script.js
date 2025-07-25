@@ -1,15 +1,4 @@
 // script.js
-    // const GITHUB_API_URL = `https://api.github.com/users/kushvijay234`;
-    // fetch(GITHUB_API_URL).then(response => {
-    //     if (!response.ok) {
-    //         alert('Failed to fetch data from GitHub API');
-    //     }
-    //     return response.json();
-    // }).then((data) => {
-    //     console.log(data);
-    // }).catch(error => {
-    //     console.error('Error fetching data:', error);
-    // });
 
 
 let serachButton = document.querySelector('#searchButton');;
