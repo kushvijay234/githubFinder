@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ededed !important;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 5px !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: transparent !important;
+    outline: 0px;
+    box-shadow: rgba(13, 110, 253, 0) 0px 0px 0px 0.25rem !important;
+}
