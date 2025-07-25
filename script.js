@@ -38,7 +38,7 @@ serachButton.addEventListener('click', () => {
             <div class = "card m-3 p-3"> 
             <div class="card-header">
                 <div class="card-title">
-                    <h3 class="text-center">GitHub User Profile</h3>
+                    <h3 class="text-center">Github User Profile</h3>
                 </div>
             </div>
             <div class="card-body">
@@ -54,8 +54,8 @@ serachButton.addEventListener('click', () => {
                         <p>Public Repos: <b>${data.public_repos}</b></p>
                          <p>Profile Link: <a href="${data.html_url}" target="_blank">Visit GitHub Profile</a></p>
                         <p>Bio: ${data.bio ? data.bio : 'No bio available'}</p>
-                        <p>Account Created At: ${new Date(data.created_at).toLocaleDateString()}</p>
-                        <p>Location: ${data.location ? data.location : 'Not specified'}</p>
+                        <p>Account Created At: <b>${new Date(data.created_at).toLocaleDateString()}</b></p>
+                        <p>Location: <b>${data.location ? data.location : 'Not specified'}</b></p>
                     </div>
                 </div>
         `;
