@@ -1,6 +1,3 @@
-// script.js
-
-
 let serachButton = document.querySelector('#searchButton');;
 
 serachButton.addEventListener('click', () => {
